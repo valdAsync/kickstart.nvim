@@ -289,10 +289,25 @@ require('lazy').setup({
         --   },
         -- },
         -- pickers = {}
+        -- defaults = {
+        --   hidden = true,
+        --   respect_gitignore = false,
+        --   file_ignore_patterns = { "venv", ".venv" },
+        -- },
+        -- pickers = {
+        --   find_files = {
+        --     hidden = true,
+        --     no_ignore = true,
+        --   },
+        -- },
         extensions = {
           ['ui-select'] = {
             require('telescope.themes').get_dropdown(),
           },
+          -- file_browser = {
+          --   hidden = true,
+          --   respect_gitignore = false,
+          -- },
         },
       }
 
