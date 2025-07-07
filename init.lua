@@ -32,8 +32,8 @@ vim.o.splitbelow = true
 -- vim.o.list = true
 vim.opt.listchars = {
   tab = '» ',
-  -- trail = '·', 
-  nbsp = '␣'
+  -- trail = '·',
+  nbsp = '␣',
 }
 
 -- Preview substitutions live, as you type!
